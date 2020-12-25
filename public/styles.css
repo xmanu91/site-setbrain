@@ -468,12 +468,27 @@ footer{
 
 footer .socialcontainer{
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
+  align-items: flex-end;
+
 }
 
 footer .socialcontainer i{
   color: #fff;
   font-size: 2em;
- 
+  margin: auto 10px;
+
+}
+
+footer .baseline{
+  color: #fff;
+  font-size: 1em;
+  display: flex;
+  width: 100%;
+  height: 30vh;
+  justify-content: center;
+  margin: 90px 0;
+  position: absolute;
 }
