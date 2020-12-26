@@ -19,13 +19,28 @@ lax.setup() // init
      var container = document.querySelector("#sec-2 .maincontainer");
      container.style.opacity = 1.0;
      this.isOpac = false;
+
+     var social = document.querySelector(".socialcontainer");
+     social.classList.add('active');
  }
+
+    if(scroll > 50){
+      var social = document.querySelector(".socialcontainer");
+      social.classList.add('active');
+    }
+
+    if(scroll < 50){
+      var social = document.querySelector(".socialcontainer");
+      social.classList.remove('active');
+    }
+
 
   if(scroll > 999 && isDefil){
     var defil = document.querySelector('#sec-3 .maincontainer');
     defil.classList.add('active');
     this.isDefil = false;
   }
+
  });
 
  }
