@@ -13,7 +13,7 @@ lax.setup() // init
  
  window.addEventListener("scroll", (event) => {
    let scroll = this.scrollY;
-    console.log(scroll);
+   
    if(scroll > 50 && isOpac){
      
      var container = document.querySelector("#sec-2 .maincontainer");
