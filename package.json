@@ -1,0 +1,16 @@
+{
+  "name": "static-html-and-javascript-served-via-node",
+  "version": "1.0.0",
+  "description": "Sometimes you need to be able to make a simple static site!",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "node-static": "0.7.11"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
