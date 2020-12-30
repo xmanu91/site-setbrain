@@ -4,6 +4,10 @@
   font-family: "Hkgrotesk";
 }
 
+.round {
+  display: none;
+}
+
 .socialcontainer {
   position: fixed;
   right: 0;

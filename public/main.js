@@ -20,7 +20,7 @@ window.addEventListener("scroll", (event) => {
     social2.classList.remove("active");
   }
 
-  if (scroll > 999 && isDefil) {
+  if (scroll > 950 && isDefil) {
     var defil = document.querySelector("#sec-3 .maincontainer");
     defil.classList.add("active");
     this.isDefil = false;
