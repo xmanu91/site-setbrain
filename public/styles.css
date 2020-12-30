@@ -225,6 +225,7 @@ section#sec-2 .container {
   align-items: center;
   justify-content: center;
   transition: 0.5s;
+  left: 0;
 }
 
 section#sec-2 .container .card {
@@ -575,10 +576,10 @@ footer .socialcontainer {
     height: 15px;
     position: relative;
     margin: 0px auto;
-    margin-top: -130px;
-    margin-bottom: 100px;
-    z-index: 30;
+    margin-top: -150px;
+    margin-bottom: 250px;
     display: flex;
+    z-index: 300;
     justify-content: center;
   }
 
@@ -590,6 +591,8 @@ footer .socialcontainer {
     z-index: 200;
     position: relative;
     border: solid #424455 3px;
+    margin-bottom: 100px;
+    display: inline-block;
   }
 
   .round:nth-child(2) {
@@ -665,5 +668,11 @@ footer .socialcontainer {
     flex-direction: row;
     top: 0;
     margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  section#sec-2 .maincontainer .container {
+    left: 0;
   }
 }

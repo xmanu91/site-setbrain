@@ -1,7 +1,7 @@
 {
-  "name": "static-html-and-javascript-served-via-node",
+  "name": "setbrain-site",
   "version": "1.0.0",
-  "description": "Sometimes you need to be able to make a simple static site!",
+  "description": "",
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon src/index.js localhost 8080"

@@ -35,3 +35,17 @@ function round(number) {
 
 var defaultFocus = document.getElementById("focus");
 defaultFocus.focus({ preventScroll: true });
+
+window.onresize = () => {
+  if (window.innerWidth >= 1200) {
+    var cont2 = document.querySelector(".maincontainer .container");
+
+    cont2.style.left = 0;
+  }
+
+  if (window.innerWidth <= 1200) {
+    var cont3 = document.querySelector(".maincontainer .container");
+
+    cont3.style.left = -100 + "%";
+  }
+};
