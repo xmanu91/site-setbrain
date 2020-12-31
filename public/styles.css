@@ -533,6 +533,10 @@ footer .socialcontainer {
 ==========================================*/
 
 @media (max-width: 1000px) {
+  body {
+    position: relative;
+  }
+
   section#sec-1 .right {
     visibility: hidden;
     display: none;
@@ -542,7 +546,7 @@ footer .socialcontainer {
     justify-content: center;
   }
 
-  section#sec-1 svg {
+  section#sec-2 svg {
     display: none;
   }
 
@@ -617,17 +621,15 @@ footer .socialcontainer {
   }
 
   section#sec-2 .container .card:nth-child(1) {
-    margin-left: 100px;
-    margin-right: -100px;
+    margin: 10px auto;
   }
 
   section#sec-2 .container .card:nth-child(3) {
-    margin-left: -100px;
-    margin-right: 100px;
+    margin: 10px auto;
   }
 
   section#sec-2 .container .card:nth-child(2) {
-    margin: 0 auto;
+    margin: 10px auto;
   }
 
   section#sec-3 {
