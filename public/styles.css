@@ -19,12 +19,19 @@
   color: #fff;
 }
 
+
+
 .active i {
   color: #000;
 }
 
 .socialcontainer i {
   margin: 10px;
+}
+
+.active i:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 
 section#sec-1 {
@@ -207,8 +214,8 @@ section#sec-1 .right .center .sol .barre:nth-child(4) {
 }
 
 /*========================================*
-*   Fin de la première section  et        *
-*   début de la seconde                   *
+*   Fin de la premiÃ¨re section  et        *
+*   dÃ©but de la seconde                   *
 ==========================================*/
 section#sec-2 {
   width: 100%;
@@ -276,6 +283,7 @@ section#sec-2 .title {
   top: 10%;
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 section#sec-2 .title U {
@@ -417,7 +425,7 @@ section#sec-2 .maincontainer .bar {
 
 /*========================================*
 *   Fin de la seconde section et          *
-*   début de la troisième                 *
+*   dÃ©but de la troisiÃ¨me                 *
 ==========================================*/
 
 section#sec-3 {
@@ -485,7 +493,7 @@ section#sec-3 .container .maincontainer .right p {
 }
 
 section#sec-3 .container .maincontainer .right p {
-  margin: 20px 25px;
+  margin: 50px 55px;
   font-size: 1.5em;
 }
 
@@ -508,8 +516,8 @@ section#sec-3 .container .active .left {
 }
 
 /*========================================*
-*   Fin de la troisième section et        *
-*   début du footer                       *
+*   Fin de la troisiÃ¨me section et        *
+*   dÃ©but du footer                       *
 ==========================================*/
 
 footer {
@@ -529,7 +537,7 @@ footer .socialcontainer {
 
 /*========================================*
 *   Fin du footer et                     *
-*   début du responsive                  *
+*   dÃ©but du responsive                  *
 ==========================================*/
 
 @media (max-width: 1000px) {
@@ -579,9 +587,9 @@ footer .socialcontainer {
     width: 100px;
     height: 15px;
     position: relative;
-    margin: 0px auto;
-    margin-top: -150px;
-    margin-bottom: 250px;
+    margin: auto auto;
+    margin-top: -50px;
+    margin-bottom: 50px;
     display: flex;
     z-index: 300;
     justify-content: center;
