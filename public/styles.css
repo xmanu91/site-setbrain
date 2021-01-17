@@ -429,9 +429,10 @@ section#sec-2 .maincontainer .bar {
 ==========================================*/
 
 section#sec-3 {
-  height: 100vh;
+  height: 60vh;
   position: relative;
   width: 100%;
+
 }
 
 section#sec-3 .container {
@@ -519,6 +520,35 @@ section#sec-3 .container .active .left {
 *   Fin de la troisiÃ¨me section et        *
 *   dÃ©but du footer                       *
 ==========================================*/
+
+section#sec-4{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-bottom: 200px;
+  position: relative;
+}
+
+section#sec-4 h1{
+  font-size: 4em;
+  z-index: 3000;
+  margin-bottom: 30px;
+}
+
+
+section#sec-4 p{
+  font-family: 'Poppins';
+  font-weight: 200; 
+  font-size: 1.5em;
+  text-align: center;
+}
+
+section#sec-4 p a{
+  color: black;
+}
 
 footer {
   height: 5vh;
@@ -642,7 +672,7 @@ footer .socialcontainer {
 
   section#sec-3 {
     position: relative;
-    height: 5vh;
+    height: 40vh;
   }
 
   section#sec-3 .container .maincontainer .right h1 {
@@ -661,6 +691,20 @@ footer .socialcontainer {
 
   section#sec-3 .left img {
     display: none;
+  }
+
+  section#sec-4{
+    margin-bottom: -150px;
+
+}
+
+  section#sec-4 h1{
+    font-size: 3em;
+    z-index: 3000;  
+  }
+
+  section#sec-4 p {
+    margin: 0px 50px;
   }
 
   footer {
