@@ -730,3 +730,9 @@ footer .socialcontainer {
     left: 0;
   }
 }
+
+@media (max-width: 800px){
+  section#sec-3{
+    height: 80vh;
+  }
+}
