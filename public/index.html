@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="styles.css" />  
     <meta name="description" content="We are a group of young people passionate about computers, we created this association in order to create all kinds of software and video games." />
     <meta name="keywords" content="set brain, setbrain, Set Brain, SET BRAIN, SetBrain, jeux, wiclass, buildworld, scp nightmare" /> 
-     <script src="lax.min.js" ></script>
+     <script src="lax.mn.js" ></script>
      <link rel="shortcut icon" type="image/x-icon" href="logo_seule.png" />
   	<link id="external-css" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap" media="all">
 	<link id="external-css" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Comfortaa&amp;display=swap" media="all">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<script src="lax.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
   <body>
@@ -72,39 +74,44 @@
 
 
       <div class="maincontainer lax" data-lax-translate-y="0 0, 400 -100">
-        <div class="title"><U>Us Projects</U></div>
+        <div class="title"><U>Our Projects</U></div>
           <div class="container">
-          <div class="card">
+    <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="card swiper-slide">
             <h1>BuildWorld</h1>
             <div class="content">
             <p>A community Minecraft server to build with an economical system</p>
             <a href="https://setbrain.fr/buildworld">Read More</a>
           </div> 
         </div>
-          <div class="card">
+          <div class="card swiper-slide">
             <h1>Wiclass</h1>
             <div class="content">
               <p>A service to redo and improve the services offered by Index Education</p>
               <a href="https://setbrain.fr/wiclass/">Read More</a>
             </div> 
           </div>
-          <div class="card">
+          <div class="card swiper-slide">
             <h1>SCP NightMare</h1>
             <div class="content">
             <p>A videogame on the theme of the S.C.P. Foundation, a RP and multiplayer game</p>
             <a href="https://setbrain.fr">Read More</a>
           </div> 
+
+    </div>
+    
+    
+  </div>
+      <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+
+  
           </div>
-          
-        
         
         </div>
-        <div class="roundcontainer">
-          <button class="round" onclick='round(0);'></button>
-          <button class="round" onclick="round(-100);" id="focus" ></button>
-          <button class="round" onclick="round(-200);"></button>
-        </div>
-          
+        
+    
         <div class="bar"></div>
       </div>
     </section>
@@ -123,6 +130,27 @@
         </div> 
       </div>
     </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      initialSlide: 1,
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 0,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable : true,
+      },
+    });
+  </script>
 
     <section id="sec-4">
       <h1>Contact</h1>
@@ -144,5 +172,6 @@
 
     <script src="main.js"></script> 
     <script src="laxmain.js" type="text/javascript" charset="utf-8"></script>
+ 
   </body>
 </html>
