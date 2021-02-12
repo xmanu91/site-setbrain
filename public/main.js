@@ -27,15 +27,6 @@ window.addEventListener("scroll", (event) => {
   }
 });
 
-function round(number) {
-  var cont = document.querySelector(".maincontainer .container");
-
-  cont.style.left = number + "%";
-}
-
-var defaultFocus = document.getElementById("focus");
-defaultFocus.focus({ preventScroll: true });
-
 window.onresize = () => {
   if (window.innerWidth >= 1200) {
     var cont2 = document.querySelector(".maincontainer .container");

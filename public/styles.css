@@ -730,20 +730,23 @@ footer .socialcontainer {
   section#sec-2 .maincontainer .container {
     left: 0;
   }
+
 }
 
 @media (max-width: 800px){
   section#sec-3{
     height: 400px;
   }
+
+  .swiper-container {
+    width: 100%;
+    height: 85%;
+  }
+
+  .swiper-pagination{
+    z-index: 500;
+    margin-bottom: 120px;
+  }
+
 }
 
-.swiper-container {
-      width: 100%;
-      height: 85%;
-    }
-
-.swiper-pagination{
-  z-index: 500;
-  margin-bottom: 120px;
-}

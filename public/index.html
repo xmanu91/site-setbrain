@@ -7,11 +7,10 @@
     <script src="https://kit.fontawesome.com/0c87a70838.js"></script>
     <link rel="stylesheet" href="styles.css" />  
     <meta name="description" content="We are a group of young people passionate about computers, we created this association in order to create all kinds of software and video games." />
-    <meta name="keywords" content="set brain, setbrain, Set Brain, SET BRAIN, SetBrain, jeux, wiclass, buildworld, scp nightmare" /> 
-     <script src="lax.mn.js" ></script>
+    <meta name="keywords" content="set brain, setbrain, Set Brain, SET BRAIN, SetBrain, jeux, wiclass, buildworld, scp nightmare" />
      <link rel="shortcut icon" type="image/x-icon" href="logo_seule.png" />
   	<link id="external-css" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap" media="all">
-	<link id="external-css" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Comfortaa&amp;display=swap" media="all">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Comfortaa&amp;display=swap" media="all">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 	<script src="lax.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
@@ -26,7 +25,7 @@
     </div>
   
 
-    <section id="sec-1" class="lax" data-lax-translate-y="0 0, 500 -400">
+    <section id="sec-1" class="lax" data-lax-translate-y="0 0, 500 -400" data-lax-optimize data-lax-use-gpu="false">
       <!--<span class="logo">SetBrain</span>-->
 
       <div class="left" >
@@ -62,7 +61,7 @@
 
     </section>
 
-    <section id="sec-2" class="lax" data-lax-translate-y="0 0, 300 -400">
+    <section id="sec-2" class="lax" data-lax-translate-y="0 0, 300 -400" data-lax-optimize data-lax-use-gpu="false">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff"
@@ -73,10 +72,10 @@
 
 
 
-      <div class="maincontainer lax" data-lax-translate-y="0 0, 400 -100">
+      <div class="maincontainer lax" data-lax-translate-y="0 0, 400 -100" data-lax-optimize data-lax-use-gpu="false">
         <div class="title"><U>Our Projects</U></div>
           <div class="container">
-    <div class="swiper-container">
+    <div id="s" class="swiper-container">
     <div class="swiper-wrapper">
       <div class="card swiper-slide">
             <h1>BuildWorld</h1>
@@ -117,7 +116,7 @@
     </section>
 
     <section id="sec-3">
-      <div class="container lax" data-lax-translate-y="0 0, 400 -400">
+      <div class="container lax" data-lax-translate-y="0 0, 400 -400" data-lax-optimize data-lax-use-gpu="false">
         <h1>Who are we?</h1>
         <div class="maincontainer">
           <div class="left">
@@ -130,26 +129,30 @@
         </div> 
       </div>
     </section>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="swiper-bundle.min.js"></script>
       <script>
-    var swiper = new Swiper('.swiper-container', {
-      effect: 'coverflow',
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: 'auto',
-      initialSlide: 1,
-      coverflowEffect: {
-        rotate: 0,
-        stretch: 0,
-        depth: 0,
-        modifier: 1,
-        slideShadows: true,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable : true,
-      },
-    });
+
+        if (window.innerWidth <= 1200) {
+          var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            initialSlide: 1,
+            coverflowEffect: {
+              rotate: 0,
+              stretch: 0,
+              depth: 0,
+              modifier: 1,
+              slideShadows: true,
+            },
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+          });
+
+        }
   </script>
 
     <section id="sec-4">
