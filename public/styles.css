@@ -429,7 +429,7 @@ section#sec-2 .maincontainer .bar {
 ==========================================*/
 
 section#sec-3 {
-  height: 60vh;
+  height: 80vh;
   position: relative;
   width: 100%;
 
@@ -528,7 +528,7 @@ section#sec-4{
   align-items: center;
   flex-direction: column;
 
-  margin-bottom: 200px;
+  margin-bottom: 500px;
   position: relative;
 }
 
@@ -603,7 +603,7 @@ footer .socialcontainer {
 
   section#sec-2 {
     overflow: hidden;
-    height: 140vh;
+    height: 110vh;
     width: 100%;
     display: flex;
   }
@@ -672,7 +672,8 @@ footer .socialcontainer {
 
   section#sec-3 {
     position: relative;
-    height: 40vh;
+    height: 80vh;
+    background: transparent;
   }
 
   section#sec-3 .container .maincontainer .right h1 {
@@ -735,7 +736,7 @@ footer .socialcontainer {
 
 @media (max-width: 800px){
   section#sec-3{
-    height: 400px;
+    height: 500px;
   }
 
   .swiper-container {
@@ -746,7 +747,7 @@ footer .socialcontainer {
 
   .swiper-pagination{
     z-index: 500;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
   }
 
 
