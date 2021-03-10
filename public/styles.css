@@ -362,11 +362,7 @@ section#sec-2 .maincontainer .bar {
 ==========================================*/
 
 section#sec-3 {
-<<<<<<< HEAD
   height: 70vh;
-=======
-  height: 80vh;
->>>>>>> b02ea35caef30051944486839e8e19213eacfb56
   position: relative;
   width: 100%;
 }
