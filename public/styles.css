@@ -362,7 +362,11 @@ section#sec-2 .maincontainer .bar {
 ==========================================*/
 
 section#sec-3 {
+<<<<<<< HEAD
   height: 70vh;
+=======
+  height: 80vh;
+>>>>>>> b02ea35caef30051944486839e8e19213eacfb56
   position: relative;
   width: 100%;
 }
@@ -460,7 +464,7 @@ section#sec-4{
   align-items: center;
   flex-direction: column;
 
-  margin-bottom: 200px;
+  margin-bottom: 500px;
   position: relative;
 }
 
