@@ -113,12 +113,12 @@
                 <a href="https://setbrain.fr/wiclass/">Read More</a>
               </div>
             </div>
-            <div class="card swiper-slide">
+            <!--<div class="card swiper-slide">
               <h1 translate="no">SCP NightMare</h1>
               <div class="content">
                 <p>A videogame on the theme of the S.C.P. Foundation, a RP and multiplayer game</p>
                 <a href="https://setbrain.fr">Read More</a>
-              </div>
+              </div>-->
 
             </div>
 
@@ -154,9 +154,8 @@
   </section>
   <script src="swiper-bundle.min.js"></script>
   <script>
-
-    if (window.innerWidth <= 1200) {
-      var swiper = new Swiper('.swiper-container', {
+    if(window.innerWidth < 1200){
+      swiper = new Swiper('.swiper-container', {
         effect: 'coverflow',
         grabCursor: true,
         centeredSlides: true,
@@ -174,8 +173,7 @@
           clickable: true,
         },
       });
-
-    }
+    } 
   </script>
 
   <section id="sec-4">

@@ -220,7 +220,7 @@ section#sec-2 .container {
 section#sec-2 .container .card {
   width: 290px;
   height: 450px;
-  margin-right: 100px;
+  margin: 60px;
   border-radius: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transition: 0.5s;
@@ -541,65 +541,23 @@ footer .socialcontainer {
   }
 
   section#sec-2 .container {
-    width: 300%;
-    left: -100%;
-  }
-
-  .roundcontainer {
-    width: 100px;
-    height: 15px;
-    position: relative;
-    margin: auto auto;
-    margin-top: -50px;
-    margin-bottom: 50px;
-    display: flex;
-    z-index: 300;
-    justify-content: center;
-  }
-
-  .round {
-    height: 15px;
-    width: 15px;
-    border-radius: 50px;
-    background: transparent;
-    z-index: 200;
-    position: relative;
-    border: solid #424455 3px;
-    margin-bottom: 100px;
-    display: inline-block;
-  }
-
-  .round:nth-child(2) {
-    margin: 0 10px;
-  }
-
-  .round:hover {
-    background: #424455;
-  }
-
-  .round:nth-child(1):hover .container {
-    left: 0;
+    width: 100%;
   }
 
   section#sec-2 .maincontainer .container .card:hover p {
     margin: 200px 0px 0 0px;
   }
-
-  .round:focus {
-    outline: none;
-    background: #424455;
-  }
-
+  
   section#sec-2 .container .card:nth-child(1) {
-    margin: 10px auto;
+    margin: 10px 50px;
   }
 
   section#sec-2 .container .card:nth-child(3) {
-    margin: 10px auto;
+    margin: 10px 0;
   }
 
   section#sec-2 .container .card:nth-child(2) {
-    margin: 10px auto;
+    margin: 10px 0;
   }
 
   section#sec-3 {
@@ -628,9 +586,7 @@ footer .socialcontainer {
 
   section#sec-4{
     margin-bottom: -150px;
-    
-
-}
+  }
 
   section#sec-4 h1{
     font-size: 3em;
@@ -679,12 +635,22 @@ footer .socialcontainer {
 
   .swiper-pagination{
     z-index: 500;
-    margin-bottom: 80px;
+    margin-top: 350px;
   }
 
-
+  .swiper-pagination-bullet{
+    margin: 0 5px;
+  }
 }
 
 .swiper-container {
   overflow: visible !important;
+}
+
+
+@media (max-width: 400px){
+  .swiper-pagination{
+    z-index: 500;
+    margin-top: 420px;
+  }
 }
