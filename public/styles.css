@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "Hkgrotesk";
+  font-family: 'Work Sans', sans-serif;
 }
 
 .round {
@@ -60,19 +62,20 @@ section#sec-1 .block {
 }
 
 section#sec-1 .block h1 {
-  font-family: "Hkgrotesk";
-  font-size: 46px;
+  /*font-family: "Hkgrotesk";*/
+  font-size: 56px;
   margin: 10px 0;
 }
 
-section#sec-1 block h2 {
-  font-family: "Hkgrotesk";
+section#sec-1 .block h2 {
+  /* font-family: "Sf ui text"; */
   font-size: 25px;
   margin: 10px 0;
+  color: #8686b2;
 }
 
 section#sec-1 .block p {
-  font-family: "Sf ui text";
+  /* font-family: "Sf ui text"; */
   font-size: 16px;
   color: #8686b2;
 }
@@ -88,7 +91,11 @@ section#sec-1 .right {
   display: flex;
 }
 
-section#sec-1 .right .center {
+section#sec-1 .right img{
+  transform: translateY(-10%)
+}
+
+/*section#sec-1 .right .center {
   position: absolute;
   top: 40%;
   left: 40%;
@@ -193,7 +200,7 @@ section#sec-1 .right .center .sol .barre:nth-child(4) {
   left: 50%;
   bottom: 0;
   transform: rotate(90deg) translate(100%, 1000%);
-}
+}*/
 
 /*========================================*
 *   Fin de la premiÃ¨re section  et        *
@@ -273,6 +280,7 @@ section#sec-2 .title U {
   z-index: 20;
   position: relative;
   margin: 0 auto;
+  font-weight: bold;
 }
 
 section#sec-2 .maincontainer {
@@ -293,24 +301,24 @@ section#sec-2 .maincontainer .container .card h1 {
 }
 
 section#sec-2 .maincontainer .container .card:nth-child(1) h1 {
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
   font-size: 2em;
 }
 
 section#sec-2 .maincontainer .container .card:nth-child(2) h1 {
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
   font-size: 2em;
 }
 
 section#sec-2 .maincontainer .container .card:nth-child(3) h1 {
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
   font-size: 2em;
 }
 
 section#sec-2 .maincontainer .container .card p {
   color: #fff;
   margin-top: 260px;
-  font-family: "Poppins";
+  /*font-family: "Poppins";*/
   position: relative;
   text-align: center;
   transition: 0.5s;
@@ -324,7 +332,7 @@ section#sec-2 .maincontainer .container .card a {
   border-radius: 40px;
   text-decoration: none;
   margin-top: 20px;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   transition: 0.5s;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   opacity: 0;
@@ -377,7 +385,7 @@ section#sec-3 .container {
 section#sec-3 .container h1 {
   font-size: 3em;
   text-align: center;
-  font-family: "Hkgrotesk";
+  /* font-family: "Hkgrotesk"; */
   margin-top: 10px;
   position: relative;
 }
@@ -422,7 +430,7 @@ section#sec-3 .container .maincontainer .right p {
   transition: 0.5s;
   text-align: center;
   color: #fff;
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
 }
 
 section#sec-3 .container .maincontainer .right p {
@@ -472,8 +480,8 @@ section#sec-4 h1{
 
 
 section#sec-4 p{
-  font-family: 'Poppins';
-  font-weight: 200; 
+  /* font-family: 'Poppins'; */
+  font-weight: 500; 
   font-size: 1.5em;
   text-align: center;
 }

@@ -11,13 +11,14 @@
     content="We are a group of young people passionate about computers, we created this association in order to create all kinds of software and video games." />
   <meta name="keywords"
     content="set brain, setbrain, Set Brain, SET BRAIN, SetBrain, jeux, wiclass, buildworld, scp nightmare" />
-  <link rel="shortcut icon" type="image/x-icon" href="logo_seule.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="./logo-site-setbrain.png" />
   <link
     href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="lax.min.js" type="text/javascript" charset="utf-8"></script>
   <link rel="stylesheet" href="font.css">
+  <link rel="stylesheet" href="./locomotive.css">
   <noscript>
     <style>
       #sec-1,
@@ -40,7 +41,7 @@
   </noscript>
 </head>
 
-<body>
+<body data-scroll-container>
 
   <div class="socialcontainer">
     <i class="fab fa-instagram" onclick="document.location.href='https://www.instagram.com/set__brain/'"></i>
@@ -50,22 +51,18 @@
   </div>
 
 
-  <section id="sec-1" class="lax" data-lax-translate-y="0 0, 500 -400" data-lax-optimize data-lax-use-gpu="true">
+  <section id="sec-1" class="lax" data-lax-translate-y="0 0, 500 -400" data-lax-optimize data-lax-use-gpu="true" data-scroll-section>
     <!--<span class="logo">SetBrain</span>-->
 
     <div class="left">
       <div class="block">
         <h1 translate="no">Set Brain <br> Association</h1>
-        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing.</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco.
-        </p>
+        <h2>Nous sommes une jeune association qui a pour but de révolutionner l’administratif grace à des outils spécialisés extrêmement bien réaliser</h2>
       </div>
     </div>
     <div class="right">
-      <div class="center">
+      <img src="undraw_pair_programming_njlp.svg">
+      <!--<div class="center">
         <div class="sol">
           <div class="barre"></div>
           <div class="barre"></div>
@@ -80,12 +77,12 @@
           <img
             src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDMwLjg0OSAzMC44NDkiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGcgaWQ9ImM0NF90ZXJtaW5hbCI+CgkJPHBhdGggZD0iTTI4LjY0OCwyLjIwMkgyLjIwNkMwLjk4NiwyLjIwMiwwLDMuMTg3LDAsNC40MDR2MjIuMDM5YzAsMS4yMTUsMC45ODYsMi4yMDMsMi4yMDYsMi4yMDNoMjYuNDQyICAgIGMxLjIxMywwLDIuMjAxLTAuOTg4LDIuMjAxLTIuMjAzVjQuNDA0QzMwLjg1LDMuMTg3LDI5Ljg2MSwyLjIwMiwyOC42NDgsMi4yMDJ6IE0xMC41MzcsMy44NTZjMC42MDksMCwxLjEsMC40OTEsMS4xLDEuMTAzICAgIGMwLDAuNjA3LTAuNDksMS4wOTktMS4xLDEuMDk5Yy0wLjYwOCwwLTEuMTA0LTAuNDkxLTEuMTA0LTEuMDk5QzkuNDMzLDQuMzQ4LDkuOTI4LDMuODU2LDEwLjUzNywzLjg1NnogTTcuMTY0LDMuODU2ICAgIGMwLjYwNywwLDEuMTAyLDAuNDkxLDEuMTAyLDEuMTAzYzAsMC42MDctMC40OTQsMS4wOTktMS4xMDIsMS4wOTljLTAuNjExLDAtMS4xMDUtMC40OTEtMS4xMDUtMS4wOTkgICAgQzYuMDU4LDQuMzQ4LDYuNTUyLDMuODU2LDcuMTY0LDMuODU2eiBNMy44NTUsMy44NTZjMC42MDksMCwxLjEwNCwwLjQ5MSwxLjEwNCwxLjEwM2MwLDAuNjA3LTAuNDk0LDEuMDk5LTEuMTA0LDEuMDk5ICAgIGMtMC42MDcsMC0xLjEtMC40OTEtMS4xLTEuMDk5QzIuNzU1LDQuMzQ4LDMuMjQ4LDMuODU2LDMuODU1LDMuODU2eiBNMjguNjQ4LDI2LjQ0M0gyLjIwNlY3LjczNmgyNi40NDIgICAgQzI4LjY0OCw3LjczNiwyOC42NDgsMjYuNDQzLDI4LjY0OCwyNi40NDN6IE0yOC42NDgsNS41MzFIMTMuMjJWNC40M2gxNS40MjhWNS41MzF6IiBmaWxsPSIjOWM5YzljIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+Cgk8ZyBpZD0iQ2FwYV8xXzE0OV8iPgoJPC9nPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjwvZz48L3N2Zz4=" />
         </div>
-      </div>
+      </div>-->
     </div>
 
   </section>
 
-  <section id="sec-2" class="lax" data-lax-translate-y="0 0, 300 -400" data-lax-optimize data-lax-use-gpu="true">
+  <section id="sec-2" class="lax" data-lax-translate-y="0 0, 300 -400" data-lax-optimize data-lax-use-gpu="true" data-scroll-section>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#fff" fill-opacity="1"
         d="M0,96L40,106.7C80,117,160,139,240,133.3C320,128,400,96,480,96C560,96,640,128,720,122.7C800,117,880,75,960,80C1040,85,1120,139,1200,138.7C1280,139,1360,85,1400,58.7L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
@@ -95,22 +92,22 @@
 
 
     <div class="maincontainer lax" data-lax-translate-y="0 0, 400 -100" data-lax-optimize data-lax-use-gpu="true">
-      <div class="title"><U>Our Projects</U></div>
+      <div class="title"><U>Nos projets</U></div>
       <div class="container">
         <div id="s" class="swiper-container">
           <div class="swiper-wrapper">
             <div class="card swiper-slide">
               <h1 translate="no">BuildWorld</h1>
               <div class="content">
-                <p>A community Minecraft server to build with an economical system</p>
-                <a href="https://setbrain.fr/buildworld">Read More</a>
+                <p>Un serveur Minecraft communautaire de build, doté d'un système économique et de plotes ultras obtimisés</p>
+                <a href="https://setbrain.fr/buildworld">Voir plus</a>
               </div>
             </div>
             <div class="card swiper-slide">
               <h1 translate="no">Wiclass</h1>
               <div class="content">
-                <p>A service to redo and improve the services offered by Index Education</p>
-                <a href="https://setbrain.fr/wiclass/">Read More</a>
+                <p>Un logiciel de gestion, d'administration et d'éducation dédier aux établissements scolaires de second niveau</p>
+                <a href="https://setbrain.fr/wiclass/">Voir plus</a>
               </div>
             </div>
             <!--<div class="card swiper-slide">
@@ -137,22 +134,21 @@
     </div>
   </section>
 
-  <section id="sec-3">
+  <section id="sec-3" data-scroll-section>
     <div class="container lax" data-lax-translate-y="0 0, 400 -400" data-lax-optimize data-lax-use-gpu="true">
-      <h1>Who are we?</h1>
+      <h1>Qui sommes-nous?</h1>
       <div class="maincontainer">
         <div class="left">
           <img src="back_to_work_4x.png" alt="">
         </div>
         <div class="right">
           <h1 translate="no">Set Brain</h1>
-          <p>We are a group of young people passionate about computers, we created this association in order to create
-            all kinds of software and video games.</p>
+          <p>Nous sommes une association dédier à l'informatique, nous l'avons créé dans le but de créer toutes sortes de logiciels professionnels  </p>
         </div>
       </div>
     </div>
   </section>
-  <script src="swiper-bundle.min.js"></script>
+  <script src="./swiper-bundle.min.js"></script>
   <script>
     if(window.innerWidth < 1200){
       swiper = new Swiper('.swiper-container', {
@@ -180,12 +176,12 @@
     <h1>Contact</h1>
 
 
-    <p>You can contact us at the email address <a
-        href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfnbBsDxLGLBfQcVKnqKwCLhZWLHgrDgFCjMJrdMKrnvBsgXtwFPLtxgcbzpmNwDCZjxQV">setbrain.association@gmail.com</a><br />Or
-      in the <a href="https://discord.gg/BajueYu">Discord</a> at the lounge "contact".</p>
+    <p>Vous pouvez nous contacter à l'adresse e-mail suivante <a
+        href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfnbBsDxLGLBfQcVKnqKwCLhZWLHgrDgFCjMJrdMKrnvBsgXtwFPLtxgcbzpmNwDCZjxQV">setbrain.association@gmail.com</a><br />Ou
+        dans le <a href="https://discord.gg/BajueYu">Discord</a> salon "contact".</p>
   </section>
 
-  <footer>
+  <footer data-scroll-section>
     <div class="socialcontainer">
       <i class="fab fa-instagram" onclick="document.location.href='https://www.instagram.com/set__brain/'"></i>
       <i class="fab fa-discord" onclick="document.location.href='https://discord.gg/BajueYu'"></i>

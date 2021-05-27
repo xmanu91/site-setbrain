@@ -1,4 +1,4 @@
-window.onload = function () {
+/*window.onload = function () {
   lax.setup(); // init
 
   const updateLax = () => {
@@ -6,4 +6,11 @@ window.onload = function () {
     window.requestAnimationFrame(updateLax);
   };
   window.requestAnimationFrame(updateLax);
-};
+};*/
+import LocomotiveScroll from "locomotive-scroll";
+
+  var scroll = new LocomotiveScroll({
+    el: document.querySelector('body'),
+    smooth: true,
+    lerp: 0.05
+  });

@@ -1,0 +1,17 @@
+/*window.onload = function () {
+  lax.setup(); // init
+
+  const updateLax = () => {
+    lax.update(window.scrollY);
+    window.requestAnimationFrame(updateLax);
+  };
+  window.requestAnimationFrame(updateLax);
+};*/
+
+(function () {
+  var scroll = new LocomotiveScroll({
+    el: document.querySelector('.smooth-scroll'),
+    smooth: true,
+    lerp: 0.05
+  });
+})();

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accueil - Set Brain</title>
+  <meta charset="UTF-8">
+  <script src="d9ccd9511210447ffa4a7aa80a747033"></script>
+  <link rel="stylesheet" href="a439a3fa8561e8b63f7c2f22b7989b51">
+  <meta name="description" content="We are a group of young people passionate about computers, we created this association in order to create all kinds of software and video games.">
+  <meta name="keywords" content="set brain, setbrain, Set Brain, SET BRAIN, SetBrain, jeux, wiclass, buildworld, scp nightmare">
+  <link rel="shortcut icon" type="image/x-icon" href="e8427240a964f347983e9c9a1dec9181">
+  <link href="4a5af594c47d9db0a56c22d6b95981f2" rel="stylesheet">
+  <link rel="stylesheet" href="dee139774e95432a029517e0df92fd75">
+  <script src="892ed825ba8e6171d6281a7eceee06b8" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" href="e02404d1ee9b1b8e1575a87e71f47571">
+      <link rel="stylesheet" href="f01c0c23352f8b638db66dbccf58c4df">
+  <noscript>
+    <style data-parcel-key="13ab706f306ee928f15d591559f80c5d">
+      #sec-1,
+      #sec-2,
+      #sec-3,
+      #sec-4,
+      #footer {
+        display: none !important;
+      }
+
+      .nodiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+    <div class="nodiv" style="e5b4f919761832e976cac6d754646c59">
+      <h1 class="noscript">Please activate Javascript and reload the site</h1>
+    </div>
+  </noscript>
+</head>
+
+<body data-scroll-container="">
+
+  <div class="socialcontainer">
+    <i class="fab fa-instagram" onclick="document.location.href='https://www.instagram.com/set__brain/'"></i>
+    <i class="fab fa-discord" onclick="document.location.href='https://discord.gg/BajueYu'"></i>
+    <i class="fab fa-twitter" onclick="document.location.href='https://twitter.com/Set__Brain'"></i>
+    <i class="fab fa-github" onclick="document.location.href='https://github.com/SetBrain2'"></i>
+  </div>
+
+
+  <section id="sec-1" class="lax" data-lax-translate-y="0 0, 500 -400" data-lax-optimize="" data-lax-use-gpu="true" data-scroll-section="">
+    <!--<span class="logo">SetBrain</span>-->
+
+    <div class="left">
+      <div class="block">
+        <h1 translate="no">Set Brain <br> Association</h1>
+        <h2>Nous sommes une jeune association qui a pour but de révolutionner l’administratif grace à des outils spécialisés extrêmement bien réaliser</h2>
+      </div>
+    </div>
+    <div class="right">
+      <img src="7c218373ce9c5c05faaa7ca6c8e8356c">
+      <!--<div class="center">
+        <div class="sol">
+          <div class="barre"></div>
+          <div class="barre"></div>
+          <div class="barre"></div>
+          <div class="barre"></div>
+          <div class="barre"></div>
+        </div>
+        <div class="box">
+          <i class="fas fa-gamepad"></i>
+          <i class="fas fa-code"></i>
+          <i class="far fa-window"></i>
+          <img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDMwLjg0OSAzMC44NDkiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGcgaWQ9ImM0NF90ZXJtaW5hbCI+CgkJPHBhdGggZD0iTTI4LjY0OCwyLjIwMkgyLjIwNkMwLjk4NiwyLjIwMiwwLDMuMTg3LDAsNC40MDR2MjIuMDM5YzAsMS4yMTUsMC45ODYsMi4yMDMsMi4yMDYsMi4yMDNoMjYuNDQyICAgIGMxLjIxMywwLDIuMjAxLTAuOTg4LDIuMjAxLTIuMjAzVjQuNDA0QzMwLjg1LDMuMTg3LDI5Ljg2MSwyLjIwMiwyOC42NDgsMi4yMDJ6IE0xMC41MzcsMy44NTZjMC42MDksMCwxLjEsMC40OTEsMS4xLDEuMTAzICAgIGMwLDAuNjA3LTAuNDksMS4wOTktMS4xLDEuMDk5Yy0wLjYwOCwwLTEuMTA0LTAuNDkxLTEuMTA0LTEuMDk5QzkuNDMzLDQuMzQ4LDkuOTI4LDMuODU2LDEwLjUzNywzLjg1NnogTTcuMTY0LDMuODU2ICAgIGMwLjYwNywwLDEuMTAyLDAuNDkxLDEuMTAyLDEuMTAzYzAsMC42MDctMC40OTQsMS4wOTktMS4xMDIsMS4wOTljLTAuNjExLDAtMS4xMDUtMC40OTEtMS4xMDUtMS4wOTkgICAgQzYuMDU4LDQuMzQ4LDYuNTUyLDMuODU2LDcuMTY0LDMuODU2eiBNMy44NTUsMy44NTZjMC42MDksMCwxLjEwNCwwLjQ5MSwxLjEwNCwxLjEwM2MwLDAuNjA3LTAuNDk0LDEuMDk5LTEuMTA0LDEuMDk5ICAgIGMtMC42MDcsMC0xLjEtMC40OTEtMS4xLTEuMDk5QzIuNzU1LDQuMzQ4LDMuMjQ4LDMuODU2LDMuODU1LDMuODU2eiBNMjguNjQ4LDI2LjQ0M0gyLjIwNlY3LjczNmgyNi40NDIgICAgQzI4LjY0OCw3LjczNiwyOC42NDgsMjYuNDQzLDI4LjY0OCwyNi40NDN6IE0yOC42NDgsNS41MzFIMTMuMjJWNC40M2gxNS40MjhWNS41MzF6IiBmaWxsPSIjOWM5YzljIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+Cgk8ZyBpZD0iQ2FwYV8xXzE0OV8iPgoJPC9nPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjwvZz48L3N2Zz4=" />
+        </div>
+      </div>-->
+    </div>
+
+  </section>
+
+  <section id="sec-2" class="lax" data-lax-translate-y="0 0, 300 -400" data-lax-optimize="" data-lax-use-gpu="true" data-scroll-section="">
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1" d="M0,96L40,106.7C80,117,160,139,240,133.3C320,128,400,96,480,96C560,96,640,128,720,122.7C800,117,880,75,960,80C1040,85,1120,139,1200,138.7C1280,139,1360,85,1400,58.7L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+      </path>
+    </svg>
+
+
+
+    <div class="maincontainer lax" data-lax-translate-y="0 0, 400 -100" data-lax-optimize="" data-lax-use-gpu="true">
+      <div class="title"><U>Nos projets</U></div>
+      <div class="container">
+        <div id="s" class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="card swiper-slide">
+              <h1 translate="no">BuildWorld</h1>
+              <div class="content">
+                <p>Un serveur Minecraft communautaire de build, doté d'un système économique et de plotes ultras obtimisés</p>
+                <a href="60a5a2d4a0df55e18e1bb750bc716464">Voir plus</a>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <h1 translate="no">Wiclass</h1>
+              <div class="content">
+                <p>Un logiciel de gestion, d'administration et d'éducation dédier aux établissements scolaires de second niveau</p>
+                <a href="6348939047ae70c0c988d3e2af882d1c">Voir plus</a>
+              </div>
+            </div>
+            <!--<div class="card swiper-slide">
+              <h1 translate="no">SCP NightMare</h1>
+              <div class="content">
+                <p>A videogame on the theme of the S.C.P. Foundation, a RP and multiplayer game</p>
+                <a href="https://setbrain.fr">Read More</a>
+              </div>-->
+
+            </div>
+
+
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+
+
+        </div>
+
+      </div>
+
+
+      <div class="bar"></div>
+    
+  </section>
+
+  <section id="sec-3" data-scroll-section="">
+    <div class="container lax" data-lax-translate-y="0 0, 400 -400" data-lax-optimize="" data-lax-use-gpu="true">
+      <h1>Qui sommes-nous?</h1>
+      <div class="maincontainer">
+        <div class="left">
+          <img src="05f98c73e27f7db05148a34709ced1df" alt="">
+        </div>
+        <div class="right">
+          <h1 translate="no">Set Brain</h1>
+          <p>Nous sommes une association dédier à l'informatique, nous l'avons créé dans le but de créer toutes sortes de logiciels professionnels  </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="718844f47bf02f893348d166dab75256"></script>
+  <script data-parcel-key="a9d36aa338b6e1da40a9a1725a66ad2a">
+    if(window.innerWidth < 1200){
+      swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        initialSlide: 1,
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 0,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+    } 
+  </script>
+
+  <section id="sec-4">
+    <h1>Contact</h1>
+
+
+    <p>Vous pouvez nous contacter à l'adresse e-mail suivante <a href="24bc49e6f206391f404e9c34494ce1a1">setbrain.association@gmail.com</a><br>Ou
+        dans le <a href="2130c1ebe6ca8fe2676cbe909a61e59f">Discord</a> salon "contact".</p>
+  </section>
+
+  <footer>
+    <div class="socialcontainer">
+      <i class="fab fa-instagram" onclick="document.location.href='https://www.instagram.com/set__brain/'"></i>
+      <i class="fab fa-discord" onclick="document.location.href='https://discord.gg/BajueYu'"></i>
+      <i class="fab fa-twitter" onclick="document.location.href='https://twitter.com/Set__Brain'"></i>
+      <i class="fab fa-github" onclick="document.location.href='https://github.com/SetBrain2'"></i>
+    </div>
+
+    Set Brain - 2021 &copy;
+  </footer>
+
+  <script src="eb542f55d1884c74c6d5fbff1928fd47"></script>
+  <script src="956e94fa531b26cb4e5c8ba0473f4981"></script>
+  <script src="da64ddc4c28f29eb62720fd642290ffb" type="text/javascript" charset="utf-8"></script>
+
+</body>
+
+</html>
