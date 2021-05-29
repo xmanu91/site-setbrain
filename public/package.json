@@ -11,5 +11,8 @@
   "dependencies": {
     "loco": "0.0.1",
     "locomotive-scroll": "^4.1.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.3.1"
   }
 }

@@ -1,0 +1,13 @@
+#sec-1,
+      #sec-2,
+      #sec-3,
+      #sec-4,
+      #footer {
+        display: none !important;
+      }
+
+      .nodiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }

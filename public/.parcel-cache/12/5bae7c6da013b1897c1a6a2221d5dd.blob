@@ -1,0 +1,35 @@
+let ratio = 0.5;
+let options = {
+    root: null,
+    rootMargin: '0px',
+    threshold: ratio
+};
+let social = document.querySelector('.socialcontainer');
+let callback = function(entries, observer) {
+    entries.forEach((entry)=>{
+        if (!entry.target.classList.contains("section1")) {
+            if (entry.intersectionRatio > ratio) {
+                entry.target.style.opacity = "1.0";
+                entry.target.classList.add("active");
+            }
+        }
+        if (entry.target.classList.contains("section1")) social.classList.remove("active");
+        else {
+            console.log('blanc');
+            social.classList.add("active");
+        }
+    });
+};
+let observer = new IntersectionObserver(callback, options);
+let target = document.querySelector('#sec-2 .maincontainer');
+let target2 = document.querySelector('#sec-3 .container .maincontainer');
+let target3 = document.querySelector('#sec-2');
+let target4 = document.querySelector('#sec-1');
+observer.observe(target);
+observer.observe(target2);
+observer.observe(target3);
+observer.observe(target4);
+window.onscroll = ()=>{
+    if (window.scrollY > 100) social.classList.add("active");
+    if (window.scrollY < 100) social.classList.remove("active");
+};

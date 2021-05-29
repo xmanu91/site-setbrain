@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accueil - Set Brain</title>
+  <meta charset="UTF-8">
+  <script src="https://kit.fontawesome.com/0c87a70838.js"></script>
+  <link rel="stylesheet" href="/index.HASH_REF_7efbaf5aef6882453f0cb4aa99a49703.css">
+  <meta name="description" content="We are a group of young people passionate about computers, we created this association in order to create all kinds of software and video games.">
+  <meta name="keywords" content="set brain, setbrain, Set Brain, SET BRAIN, SetBrain, jeux, wiclass, buildworld, scp nightmare">
+  <link rel="shortcut icon" type="image/x-icon" href="/logo-site-setbrain.HASH_REF_816ddaa3f7dd94c0b3372ef5d7288aa0.png">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <script src="/index.HASH_REF_46b69ca54abb361c60b9e6cbe745b402.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" href="/index.HASH_REF_94a7a6ceaae8b31219967e2f67dfb1c6.css">
+  <link rel="stylesheet" href="/index.HASH_REF_ff9119f33f9cef831a0ef9fb14a9dbca.css">
+  <noscript>
+    <style>#sec-1,
+      #sec-2,
+      #sec-3,
+      #sec-4,
+      #footer {
+        display: none !important;
+      }
+
+      .nodiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+</style>
+    <div class="nodiv" style="width: 100%; height: 100%; background-color: #fff; position: absolute; z-index: 500;
+">
+      <h1 class="noscript">Veuillez s'il vous plaît activer le javascript et recharger la page</h1>
+    </div>
+  </noscript>
+</head>
+
+<body data-scroll-container="">
+
+  <div class="socialcontainer">
+    <i class="fab fa-instagram" onclick="document.location.href='https://www.instagram.com/set__brain/'"></i>
+    <i class="fab fa-discord" onclick="document.location.href='https://discord.gg/BajueYu'"></i>
+    <i class="fab fa-twitter" onclick="document.location.href='https://twitter.com/Set__Brain'"></i>
+    <i class="fab fa-github" onclick="document.location.href='https://github.com/SetBrain2'"></i>
+  </div>
+
+
+  <section id="sec-1" class="lax" data-lax-translate-y="0 0, 500 -400" data-lax-optimize="" data-lax-use-gpu="true" data-scroll-section="">
+    <!--<span class="logo">SetBrain</span>-->
+
+    <div class="left">
+      <div class="block">
+        <h1 translate="no">Set Brain <br> Association</h1>
+        <h2>Nous créons l'impossible</h2>
+      </div>
+    </div>
+    <div class="right">
+      <img src="/undraw_pair_programming_njlp.HASH_REF_d478a1b721327cf118e844a8279a5148.svg">
+      <!--<div class="center">
+        <div class="sol">
+          <div class="barre"></div>
+          <div class="barre"></div>
+          <div class="barre"></div>
+          <div class="barre"></div>
+          <div class="barre"></div>
+        </div>
+        <div class="box">
+          <i class="fas fa-gamepad"></i>
+          <i class="fas fa-code"></i>
+          <i class="far fa-window"></i>
+          <img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDMwLjg0OSAzMC44NDkiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGcgaWQ9ImM0NF90ZXJtaW5hbCI+CgkJPHBhdGggZD0iTTI4LjY0OCwyLjIwMkgyLjIwNkMwLjk4NiwyLjIwMiwwLDMuMTg3LDAsNC40MDR2MjIuMDM5YzAsMS4yMTUsMC45ODYsMi4yMDMsMi4yMDYsMi4yMDNoMjYuNDQyICAgIGMxLjIxMywwLDIuMjAxLTAuOTg4LDIuMjAxLTIuMjAzVjQuNDA0QzMwLjg1LDMuMTg3LDI5Ljg2MSwyLjIwMiwyOC42NDgsMi4yMDJ6IE0xMC41MzcsMy44NTZjMC42MDksMCwxLjEsMC40OTEsMS4xLDEuMTAzICAgIGMwLDAuNjA3LTAuNDksMS4wOTktMS4xLDEuMDk5Yy0wLjYwOCwwLTEuMTA0LTAuNDkxLTEuMTA0LTEuMDk5QzkuNDMzLDQuMzQ4LDkuOTI4LDMuODU2LDEwLjUzNywzLjg1NnogTTcuMTY0LDMuODU2ICAgIGMwLjYwNywwLDEuMTAyLDAuNDkxLDEuMTAyLDEuMTAzYzAsMC42MDctMC40OTQsMS4wOTktMS4xMDIsMS4wOTljLTAuNjExLDAtMS4xMDUtMC40OTEtMS4xMDUtMS4wOTkgICAgQzYuMDU4LDQuMzQ4LDYuNTUyLDMuODU2LDcuMTY0LDMuODU2eiBNMy44NTUsMy44NTZjMC42MDksMCwxLjEwNCwwLjQ5MSwxLjEwNCwxLjEwM2MwLDAuNjA3LTAuNDk0LDEuMDk5LTEuMTA0LDEuMDk5ICAgIGMtMC42MDcsMC0xLjEtMC40OTEtMS4xLTEuMDk5QzIuNzU1LDQuMzQ4LDMuMjQ4LDMuODU2LDMuODU1LDMuODU2eiBNMjguNjQ4LDI2LjQ0M0gyLjIwNlY3LjczNmgyNi40NDIgICAgQzI4LjY0OCw3LjczNiwyOC42NDgsMjYuNDQzLDI4LjY0OCwyNi40NDN6IE0yOC42NDgsNS41MzFIMTMuMjJWNC40M2gxNS40MjhWNS41MzF6IiBmaWxsPSIjOWM5YzljIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+Cgk8ZyBpZD0iQ2FwYV8xXzE0OV8iPgoJPC9nPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjwvZz48L3N2Zz4=" />
+        </div>
+      </div>-->
+    </div>
+
+  </section>
+
+  <section id="sec-2" class="lax" data-lax-translate-y="0 0, 300 -400" data-lax-optimize="" data-lax-use-gpu="true" data-scroll-section="">
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1" d="M0,96L40,106.7C80,117,160,139,240,133.3C320,128,400,96,480,96C560,96,640,128,720,122.7C800,117,880,75,960,80C1040,85,1120,139,1200,138.7C1280,139,1360,85,1400,58.7L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+      </path>
+    </svg>
+
+
+
+    <div class="maincontainer lax" data-lax-translate-y="0 0, 400 -100" data-lax-optimize="" data-lax-use-gpu="true">
+      <div class="title"><U>Nos projets</U></div>
+      <div class="container">
+        <div id="s" class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="card swiper-slide">
+              <h1 translate="no">BuildWorld</h1>
+              <div class="content">
+                <p>Un serveur Minecraft communautaire de build, doté d'un système économique et de plotes ultras obtimisés</p>
+                <a href="https://setbrain.fr/buildworld">Voir plus</a>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <h1 translate="no">Wiclass</h1>
+              <div class="content">
+                <p>Un logiciel de gestion, d'administration et d'éducation dédier aux établissements scolaires de second niveau</p>
+                <a href="https://setbrain.fr/wiclass/">Voir plus</a>
+              </div>
+            </div>
+            <!--<div class="card swiper-slide">
+              <h1 translate="no">SCP NightMare</h1>
+              <div class="content">
+                <p>A videogame on the theme of the S.C.P. Foundation, a RP and multiplayer game</p>
+                <a href="https://setbrain.fr">Read More</a>
+              </div>-->
+
+            </div>
+
+
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+
+
+        </div>
+
+      </div>
+
+
+      <div class="bar"></div>
+    
+  </section>
+
+  <section id="sec-3" data-scroll-section="">
+    <div class="container lax" data-lax-translate-y="0 0, 400 -400" data-lax-optimize="" data-lax-use-gpu="true">
+      <h1>Qui sommes-nous?</h1>
+      <div class="maincontainer">
+        <div class="left">
+          <img src="/back_to_work_4x.HASH_REF_dcb43b2c3f3fa1838b022306a9b6690f.png" alt="">
+        </div>
+        <div class="right">
+          <h1 translate="no">Set Brain</h1>
+          <p>Nous sommes une jeune association qui a pour but de révolutionner l’administratif grace à des outils spécialisés extrêmement bien réaliser</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="/index.HASH_REF_608c0b79fd91ec0ed80fb72cf54124c8.js"></script>
+  <script>// modules are defined as an array
+// [ module function, map of requires ]
+//
+// map of requires is short require name -> numeric require
+//
+// anything defined in a previous bundle is accessed via the
+// orig method which is the require for previous bundles
+
+(function(modules, entry, mainEntry, parcelRequireName, globalName) {
+  /* eslint-disable no-undef */
+  var globalObject =
+    typeof globalThis !== 'undefined'
+      ? globalThis
+      : typeof self !== 'undefined'
+      ? self
+      : typeof window !== 'undefined'
+      ? window
+      : typeof global !== 'undefined'
+      ? global
+      : {};
+  /* eslint-enable no-undef */
+
+  // Save the require from previous bundle to this closure if any
+  var previousRequire =
+    typeof globalObject[parcelRequireName] === 'function' &&
+    globalObject[parcelRequireName];
+
+  var cache = previousRequire.cache || {};
+  // Do not use `require` to prevent Webpack from trying to bundle this call
+  var nodeRequire =
+    typeof module !== 'undefined' &&
+    typeof module.require === 'function' &&
+    module.require.bind(module);
+
+  function newRequire(name, jumped) {
+    if (!cache[name]) {
+      if (!modules[name]) {
+        // if we cannot find the module within our internal map or
+        // cache jump to the current global require ie. the last bundle
+        // that was added to the page.
+        var currentRequire =
+          typeof globalObject[parcelRequireName] === 'function' &&
+          globalObject[parcelRequireName];
+        if (!jumped && currentRequire) {
+          return currentRequire(name, true);
+        }
+
+        // If there are other bundles on this page the require from the
+        // previous one is saved to 'previousRequire'. Repeat this as
+        // many times as there are bundles until the module is found or
+        // we exhaust the require chain.
+        if (previousRequire) {
+          return previousRequire(name, true);
+        }
+
+        // Try the node require function if it exists.
+        if (nodeRequire && typeof name === 'string') {
+          return nodeRequire(name);
+        }
+
+        var err = new Error("Cannot find module '" + name + "'");
+        err.code = 'MODULE_NOT_FOUND';
+        throw err;
+      }
+
+      localRequire.resolve = resolve;
+      localRequire.cache = {};
+
+      var module = (cache[name] = new newRequire.Module(name));
+
+      modules[name][0].call(
+        module.exports,
+        localRequire,
+        module,
+        module.exports,
+        this,
+      );
+    }
+
+    return cache[name].exports;
+
+    function localRequire(x) {
+      return newRequire(localRequire.resolve(x));
+    }
+
+    function resolve(x) {
+      return modules[name][1][x] || x;
+    }
+  }
+
+  function Module(moduleName) {
+    this.id = moduleName;
+    this.bundle = newRequire;
+    this.exports = {};
+  }
+
+  newRequire.isParcelRequire = true;
+  newRequire.Module = Module;
+  newRequire.modules = modules;
+  newRequire.cache = cache;
+  newRequire.parent = previousRequire;
+  newRequire.register = function(id, exports) {
+    modules[id] = [
+      function(require, module) {
+        module.exports = exports;
+      },
+      {},
+    ];
+  };
+
+  Object.defineProperty(newRequire, 'root', {
+    get: function() {
+      return globalObject[parcelRequireName];
+    },
+  });
+
+  globalObject[parcelRequireName] = newRequire;
+
+  for (var i = 0; i < entry.length; i++) {
+    newRequire(entry[i]);
+  }
+
+  if (mainEntry) {
+    // Expose entry point to Node, AMD or browser globals
+    // Based on https://github.com/ForbesLindesay/umd/blob/master/template.js
+    var mainExports = newRequire(mainEntry);
+
+    // CommonJS
+    if (typeof exports === 'object' && typeof module !== 'undefined') {
+      module.exports = mainExports;
+
+      // RequireJS
+    } else if (typeof define === 'function' && define.amd) {
+      define(function() {
+        return mainExports;
+      });
+
+      // <script>
+    } else if (globalName) {
+      this[globalName] = mainExports;
+    }
+  }
+})({"6Fax5":[function(require,module,exports) {
+var HMR_HOST = null;
+var HMR_PORT = null;
+var HMR_SECURE = false;
+var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
+module.bundle.HMR_BUNDLE_ID = "32a5cdf4eff967c1174213bfaabd0e22"; // @flow
+/* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE */ /*::
+import type {
+  HMRAsset,
+  HMRMessage,
+} from '@parcel/reporter-dev-server/src/HMRServer.js';
+interface ParcelRequire {
+  (string): mixed;
+  cache: {|[string]: ParcelModule|};
+  hotData: mixed;
+  Module: any;
+  parent: ?ParcelRequire;
+  isParcelRequire: true;
+  modules: {|[string]: [Function, {|[string]: string|}]|};
+  HMR_BUNDLE_ID: string;
+  root: ParcelRequire;
+}
+interface ParcelModule {
+  hot: {|
+    data: mixed,
+    accept(cb: (Function) => void): void,
+    dispose(cb: (mixed) => void): void,
+    // accept(deps: Array<string> | string, cb: (Function) => void): void,
+    // decline(): void,
+    _acceptCallbacks: Array<(Function) => void>,
+    _disposeCallbacks: Array<(mixed) => void>,
+  |};
+}
+declare var module: {bundle: ParcelRequire, ...};
+declare var HMR_HOST: string;
+declare var HMR_PORT: string;
+declare var HMR_ENV_HASH: string;
+declare var HMR_SECURE: boolean;
+*/ var OVERLAY_ID = '__parcel__error__overlay__';
+var OldModule = module.bundle.Module;
+function Module(moduleName) {
+    OldModule.call(this, moduleName);
+    this.hot = {
+        data: module.bundle.hotData,
+        _acceptCallbacks: [],
+        _disposeCallbacks: [],
+        accept: function(fn) {
+            this._acceptCallbacks.push(fn || function() {
+            });
+        },
+        dispose: function(fn) {
+            this._disposeCallbacks.push(fn);
+        }
+    };
+    module.bundle.hotData = undefined;
+}
+module.bundle.Module = Module;
+var checkedAssets/*: {|[string]: boolean|} */ , acceptedAssets/*: {|[string]: boolean|} */ , assetsToAccept/*: Array<[ParcelRequire, string]> */ ;
+function getHostname() {
+    return HMR_HOST || (location.protocol.indexOf('http') === 0 ? location.hostname : 'localhost');
+}
+function getPort() {
+    return HMR_PORT || location.port;
+}
+// eslint-disable-next-line no-redeclare
+var parent = module.bundle.parent;
+if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
+    var hostname = getHostname();
+    var port = getPort();
+    var protocol = HMR_SECURE || location.protocol == 'https:' && !/localhost|127.0.0.1|0.0.0.0/.test(hostname) ? 'wss' : 'ws';
+    var ws = new WebSocket(protocol + '://' + hostname + (port ? ':' + port : '') + '/');
+    // $FlowFixMe
+    ws.onmessage = function(event/*: {data: string, ...} */ ) {
+        checkedAssets = {
+        };
+        acceptedAssets = {
+        };
+        assetsToAccept = [];
+        var data = JSON.parse(event.data);
+        if (data.type === 'update') {
+            // Remove error overlay if there is one
+            removeErrorOverlay();
+            let assets = data.assets.filter((asset)=>asset.envHash === HMR_ENV_HASH
+            );
+            // Handle HMR Update
+            var handled = false;
+            assets.forEach((asset)=>{
+                var didAccept = asset.type === 'css' || asset.type === 'js' && hmrAcceptCheck(module.bundle.root, asset.id, asset.depsByBundle);
+                if (didAccept) handled = true;
+            });
+            if (handled) {
+                console.clear();
+                assets.forEach(function(asset) {
+                    hmrApply(module.bundle.root, asset);
+                });
+                for(var i = 0; i < assetsToAccept.length; i++){
+                    var id = assetsToAccept[i][1];
+                    if (!acceptedAssets[id]) hmrAcceptRun(assetsToAccept[i][0], id);
+                }
+            } else window.location.reload();
+        }
+        if (data.type === 'error') {
+            // Log parcel errors to console
+            for (let ansiDiagnostic of data.diagnostics.ansi){
+                let stack = ansiDiagnostic.codeframe ? ansiDiagnostic.codeframe : ansiDiagnostic.stack;
+                console.error('🚨 [parcel]: ' + ansiDiagnostic.message + '\n' + stack + '\n\n' + ansiDiagnostic.hints.join('\n'));
+            }
+            // Render the fancy html overlay
+            removeErrorOverlay();
+            var overlay = createErrorOverlay(data.diagnostics.html);
+            // $FlowFixMe
+            document.body.appendChild(overlay);
+        }
+    };
+    ws.onerror = function(e) {
+        console.error(e.message);
+    };
+    ws.onclose = function(e) {
+        console.warn('[parcel] 🚨 Connection to the HMR server was lost');
+    };
+}
+function removeErrorOverlay() {
+    var overlay = document.getElementById(OVERLAY_ID);
+    if (overlay) {
+        overlay.remove();
+        console.log('[parcel] ✨ Error resolved');
+    }
+}
+function createErrorOverlay(diagnostics) {
+    var overlay = document.createElement('div');
+    overlay.id = OVERLAY_ID;
+    let errorHTML = '<div style="background: black; opacity: 0.85; font-size: 16px; color: white; position: fixed; height: 100%; width: 100%; top: 0px; left: 0px; padding: 30px; font-family: Menlo, Consolas, monospace; z-index: 9999;">';
+    for (let diagnostic of diagnostics){
+        let stack = diagnostic.codeframe ? diagnostic.codeframe : diagnostic.stack;
+        errorHTML += `\n      <div>\n        <div style="font-size: 18px; font-weight: bold; margin-top: 20px;">\n          🚨 ${diagnostic.message}\n        </div>\n        <pre>\n          ${stack}\n        </pre>\n        <div>\n          ${diagnostic.hints.map((hint)=>'<div>' + hint + '</div>'
+        ).join('')}\n        </div>\n      </div>\n    `;
+    }
+    errorHTML += '</div>';
+    overlay.innerHTML = errorHTML;
+    return overlay;
+}
+function getParents(bundle, id) /*: Array<[ParcelRequire, string]> */ {
+    var modules = bundle.modules;
+    if (!modules) return [];
+    var parents = [];
+    var k, d, dep;
+    for(k in modules)for(d in modules[k][1]){
+        dep = modules[k][1][d];
+        if (dep === id || Array.isArray(dep) && dep[dep.length - 1] === id) parents.push([
+            bundle,
+            k
+        ]);
+    }
+    if (bundle.parent) parents = parents.concat(getParents(bundle.parent, id));
+    return parents;
+}
+function updateLink(link) {
+    var newLink = link.cloneNode();
+    newLink.onload = function() {
+        if (link.parentNode !== null) // $FlowFixMe
+        link.parentNode.removeChild(link);
+    };
+    newLink.setAttribute('href', // $FlowFixMe
+    link.getAttribute('href').split('?')[0] + '?' + Date.now());
+    // $FlowFixMe
+    link.parentNode.insertBefore(newLink, link.nextSibling);
+}
+var cssTimeout = null;
+function reloadCSS() {
+    if (cssTimeout) return;
+    cssTimeout = setTimeout(function() {
+        var links = document.querySelectorAll('link[rel="stylesheet"]');
+        for(var i = 0; i < links.length; i++){
+            // $FlowFixMe[incompatible-type]
+            var href = links[i].getAttribute('href');
+            var hostname = getHostname();
+            var servedFromHMRServer = hostname === 'localhost' ? new RegExp('^(https?:\\/\\/(0.0.0.0|127.0.0.1)|localhost):' + getPort()).test(href) : href.indexOf(hostname + ':' + getPort());
+            var absolute = /^https?:\/\//i.test(href) && href.indexOf(window.location.origin) !== 0 && !servedFromHMRServer;
+            if (!absolute) updateLink(links[i]);
+        }
+        cssTimeout = null;
+    }, 50);
+}
+function hmrApply(bundle/*: ParcelRequire */ , asset/*:  HMRAsset */ ) {
+    var modules = bundle.modules;
+    if (!modules) return;
+    if (asset.type === 'css') {
+        reloadCSS();
+        return;
+    }
+    let deps = asset.depsByBundle[bundle.HMR_BUNDLE_ID];
+    if (deps) {
+        var fn = new Function('require', 'module', 'exports', asset.output);
+        modules[asset.id] = [
+            fn,
+            deps
+        ];
+    } else if (bundle.parent) hmrApply(bundle.parent, asset);
+}
+function hmrAcceptCheck(bundle/*: ParcelRequire */ , id/*: string */ , depsByBundle/*: ?{ [string]: { [string]: string } }*/ ) {
+    var modules = bundle.modules;
+    if (!modules) return;
+    if (depsByBundle && !depsByBundle[bundle.HMR_BUNDLE_ID]) {
+        // If we reached the root bundle without finding where the asset should go,
+        // there's nothing to do. Mark as "accepted" so we don't reload the page.
+        if (!bundle.parent) return true;
+        return hmrAcceptCheck(bundle.parent, id, depsByBundle);
+    }
+    if (checkedAssets[id]) return;
+    checkedAssets[id] = true;
+    var cached = bundle.cache[id];
+    assetsToAccept.push([
+        bundle,
+        id
+    ]);
+    if (cached && cached.hot && cached.hot._acceptCallbacks.length) return true;
+    return getParents(module.bundle.root, id).some(function(v) {
+        return hmrAcceptCheck(v[0], v[1], null);
+    });
+}
+function hmrAcceptRun(bundle/*: ParcelRequire */ , id/*: string */ ) {
+    var cached = bundle.cache[id];
+    bundle.hotData = {
+    };
+    if (cached && cached.hot) cached.hot.data = bundle.hotData;
+    if (cached && cached.hot && cached.hot._disposeCallbacks.length) cached.hot._disposeCallbacks.forEach(function(cb) {
+        cb(bundle.hotData);
+    });
+    delete bundle.cache[id];
+    bundle(id);
+    cached = bundle.cache[id];
+    if (cached && cached.hot && cached.hot._acceptCallbacks.length) cached.hot._acceptCallbacks.forEach(function(cb) {
+        var assetsToAlsoAccept = cb(function() {
+            return getParents(module.bundle.root, id);
+        });
+        if (assetsToAlsoAccept && assetsToAccept.length) assetsToAccept.push.apply(assetsToAccept, assetsToAlsoAccept);
+    });
+    acceptedAssets[id] = true;
+}
+
+},{}],"4hByT":[function(require,module,exports) {
+if (window.innerWidth < 1200) swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    initialSlide: 1,
+    coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 0,
+        modifier: 1,
+        slideShadows: true
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+    }
+});
+
+},{}]},["6Fax5","4hByT"], "4hByT", "parcelRequire6961")
+
+</script>
+
+  <section id="sec-4" data-scroll-section="">
+    <h1>Contact</h1>
+
+
+    <p>Vous pouvez nous contacter à l'adresse e-mail suivante <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfnbBsDxLGLBfQcVKnqKwCLhZWLHgrDgFCjMJrdMKrnvBsgXtwFPLtxgcbzpmNwDCZjxQV">setbrain.association@gmail.com</a><br>Ou
+        dans le <a href="https://discord.gg/BajueYu">Discord</a> salon "contact".</p>
+  </section>
+
+  <section class="footer" data-scroll-section="">    
+    <div class="socialcontainer">
+      <i class="fab fa-instagram" onclick="document.location.href='https://www.instagram.com/set__brain/'"></i>
+      <i class="fab fa-discord" onclick="document.location.href='https://discord.gg/BajueYu'"></i>
+      <i class="fab fa-twitter" onclick="document.location.href='https://twitter.com/Set__Brain'"></i>
+      <i class="fab fa-github" onclick="document.location.href='https://github.com/SetBrain2'"></i>
+    </div>
+
+    Set Brain - 2021 &copy;
+  </section>
+
+  <script src="/index.HASH_REF_ba76236dc15f498c73ded0e523420cfa.js"></script>
+  <script src="/index.HASH_REF_65c50be5631310c0667423690b861167.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+
+</html>

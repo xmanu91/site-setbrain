@@ -12,5 +12,11 @@ import LocomotiveScroll from "locomotive-scroll";
   var scroll = new LocomotiveScroll({
     el: document.querySelector('body'),
     smooth: true,
-    lerp: 0.05
+    lerp: 0.05,
+    resetNativeScroll: true,
   });
+
+
+  scroll.on('scroll', (args) => {
+    
+})

@@ -1,0 +1,28 @@
+let ratio = 0.5;
+let options = {
+    root: null,
+    rootMargin: '0px',
+    threshold: ratio
+};
+let callback = function(entries, observer) {
+    entries.forEach((entry)=>{
+        if (entry.intersectionRatio > ratio) {
+            entry.target.style.opacity = "1.0";
+            entry.target.classList.add("active");
+        }
+        if (entry.target.id == 'sec-2') {
+            if (entry.intersectionRatio > 0.5) document.querySelector(".socialcontainer").style.color = "#000";
+        }
+    });
+};
+let observer = new IntersectionObserver(callback, options);
+let target = document.querySelector('#sec-2 .maincontainer');
+let target2 = document.querySelector('#sec-3 .container .maincontainer');
+let target3 = document.querySelector('#sec-2');
+observer.observe(target);
+observer.observe(target2);
+let social = document.querySelector('.socialcontainer');
+window.onscroll = ()=>{
+    if (window.scrollY > 100) social.classList.add("active");
+    if (window.scrollY < 100) social.classList.remove("active");
+};

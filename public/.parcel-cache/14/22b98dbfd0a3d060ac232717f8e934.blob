@@ -1,0 +1,17 @@
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+/*window.onload = function () {
+  lax.setup(); // init
+
+  const updateLax = () => {
+    lax.update(window.scrollY);
+    window.requestAnimationFrame(updateLax);
+  };
+  window.requestAnimationFrame(updateLax);
+};*/ var _locomotiveScroll = require("locomotive-scroll");
+var _locomotiveScrollDefault = parcelHelpers.interopDefault(_locomotiveScroll);
+var scroll = new _locomotiveScrollDefault.default({
+    el: document.querySelector('body'),
+    smooth: true,
+    lerp: 0.05,
+    resetNativeScroll: true
+});

@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.round {
+  display: none;
+}
+
+.socialcontainer {
+  position: fixed;
+  right: 0;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  z-index: 30;
+  font-size: 2em;
+}
+
+.socialcontainer i {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  margin: 10px;
+}
+
+.socialcontainer i:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+section#sec-1 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #151b2b;
+  display: flex;
+  overflow: hidden;
+}
+
+section#sec-1 .left {
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+section#sec-1 .block {
+  color: white;
+  width: 350px;
+  height: 200px;
+  position: relative;
+  top: 25%;
+  z-index: 1;
+  margin-top: 100px;
+  transform: scale(1.5);
+}
+
+section#sec-1 .block h1 {
+  /*font-family: "Hkgrotesk";*/
+  font-size: 56px;
+  margin: 10px 0;
+}
+
+section#sec-1 .block h2 {
+  /* font-family: "Sf ui text"; */
+  font-size: 25px;
+  margin: 10px 0;
+  color: #f0f0f0;
+}
+
+section#sec-1 .block p {
+  /* font-family: "Sf ui text"; */
+  font-size: 16px;
+  color: #8686b2;
+}
+
+section#sec-1 .right {
+  background: transparent;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+section#sec-1 .right img{
+  transform: translateY(-10%)
+}
+
+/*section#sec-1 .right .center {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+section#sec-1 .right .center .box {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  transform: perspective(500px) rotate(-45deg) skew(22deg);
+  background: #f1f1f1;
+  transition: 0.5s;
+  box-shadow: -70px 75px 80px rgba(0, 0, 0, 0.3);
+}
+
+section#sec-1 .right .center .box::before {
+  content: "";
+  width: 91px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: skewY(-40deg) translate(-90px, -38px);
+  background: #e8e7ec;
+}
+
+section#sec-1 .right .center .box::after {
+  content: "";
+  width: 100%;
+  height: 77px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: skewX(-50deg) translate(45.5px, 76px);
+  background: #e8e7ec;
+}
+
+section#sec-1 .right .center .box i:nth-child(1) {
+  font-size: 7em;
+  color: rgb(156, 156, 156);
+  transform: rotateZ(90deg) translate(25%, -240%);
+}
+
+section#sec-1 .right .center .box img {
+  transform: rotateZ(90deg) translate(28%, 200%);
+  width: 120px;
+  position: absolute;
+}
+
+section#sec-1 .right .center .box i:nth-child(2) {
+  font-size: 5em;
+  color: rgb(156, 156, 156);
+  transform: rotateZ(90deg) translate(25%, -10%);
+}
+
+section#sec-1 .right .center .sol {
+  position: absolute;
+  width: 800%;
+  height: 900%;
+  transform: perspective(500px) rotate(-45deg) skew(22deg) translate(-0%, -50%);
+  background: #dfdfdf;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+section#sec-1 .right .center .sol .barre:nth-child(1) {
+  position: relative;
+  width: 10%;
+  height: 10px;
+  background: #27a4ec;
+  left: 50%;
+  bottom: 0;
+  transform: rotate(90deg);
+}
+
+section#sec-1 .right .center .sol .barre:nth-child(2) {
+  position: relative;
+  width: 10%;
+  height: 10px;
+  background: #27a4ec;
+  left: 50%;
+  bottom: 0;
+  transform: rotate(90deg) translate(130%, 1500%);
+}
+
+section#sec-1 .right .center .sol .barre:nth-child(3) {
+  position: relative;
+  width: 20%;
+  height: 10px;
+  background: #27a4ec;
+  left: 50%;
+  bottom: 0;
+  transform: translate(0.8%, 5700%);
+}
+
+section#sec-1 .right .center .sol .barre:nth-child(4) {
+  position: relative;
+  width: 20%;
+  height: 10px;
+  background: #27a4ec;
+  left: 50%;
+  bottom: 0;
+  transform: rotate(90deg) translate(100%, 1000%);
+}*/
+
+/*========================================*
+*   Fin de la premiÃ¨re section  et        *
+*   dÃ©but de la seconde                   *
+==========================================*/
+
+section#sec-2 {
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  z-index: 20;
+}
+
+section#sec-2 .container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 50s;
+  left: 0;
+}
+
+section#sec-2 .container .card {
+  width: 290px;
+  height: 450px;
+  margin: 60px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+section#sec-2 .container .card:hover {
+  transform: scale(1.1);
+}
+
+section#sec-2 .container .card:nth-child(1) {
+  background: linear-gradient(-135deg, #d41e31, #491f8f);
+}
+
+section#sec-2 .container .card:nth-child(2) {
+  background: linear-gradient(
+    45deg,
+    rgba(0, 128, 126, 1),
+    rgba(91, 247, 31, 1)
+  );
+}
+
+section#sec-2 .container .card:nth-child(3) {
+  background: linear-gradient(
+    45deg,
+    rgba(0, 6, 128, 1) 10%,
+    rgba(31, 233, 247, 1) 100%
+  );
+  margin-right: 0%;
+}
+
+section#sec-2 svg {
+  position: absolute;
+  bottom: 83%;
+  width: 100%;
+}
+
+section#sec-2 .title {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  top: 10%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+section#sec-2 .title U {
+  font-size: 3em;
+  z-index: 20;
+  position: relative;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+section#sec-2 .maincontainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+section#sec-2 .maincontainer .container .card h1 {
+  color: #fff;
+  font-size: 2.5em;
+  margin: 10px 20px;
+  text-align: left;
+}
+
+section#sec-2 .maincontainer .container .card:nth-child(1) h1 {
+  /* font-family: "Poppins"; */
+  font-size: 2em;
+}
+
+section#sec-2 .maincontainer .container .card:nth-child(2) h1 {
+  /* font-family: "Poppins"; */
+  font-size: 2em;
+}
+
+section#sec-2 .maincontainer .container .card:nth-child(3) h1 {
+  /* font-family: "Poppins"; */
+  font-size: 2em;
+}
+
+section#sec-2 .maincontainer .container .card p {
+  color: #fff;
+  margin-top: 260px;
+  /*font-family: "Poppins";*/
+  position: relative;
+  text-align: center;
+  transition: 0.5s;
+}
+
+section#sec-2 .maincontainer .container .card a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  margin-top: 20px;
+  /* font-family: "Poppins", sans-serif; */
+  transition: 0.5s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+
+section#sec-2 .maincontainer .container .card .content {
+  bottom: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+section#sec-2 .maincontainer .container .card:hover .content a {
+  margin-top: 10px;
+  opacity: 1;
+}
+
+section#sec-2 .maincontainer .container .card:hover p {
+  margin: 210px 0px 0 0px;
+}
+
+section#sec-2 .maincontainer .bar {
+  width: 30%;
+  height: 2px;
+  background: #cfcfcf;
+  position: relative;
+  left: 35%;
+  transition: 0.5s;
+  z-index: 40;
+}
+
+/*========================================*
+*   Fin de la seconde section et          *
+*   dÃ©but de la troisiÃ¨me                 *
+==========================================*/
+
+section#sec-3 {
+  height: 90vh;
+  position: relative;
+  width: 100%;
+}
+
+section#sec-3 .container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition: 0.5s;
+}
+
+section#sec-3 .container h1 {
+  font-size: 3em;
+  text-align: center;
+  /* font-family: "Hkgrotesk"; */
+  margin-top: 10px;
+  position: relative;
+}
+
+section#sec-3 .container .maincontainer {
+  width: 80%;
+  height: 600px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% auto;
+  transition: 0.5s;
+}
+
+section#sec-3 .container .maincontainer .left {
+  overflow: hidden;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+section#sec-3 .container .maincontainer .left img {
+  width: 800px;
+  height: 600px;
+}
+
+section#sec-3 .container .maincontainer .right {
+  width: 0px;
+  height: 620px;
+  background: #bd6bf7;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: -10px 0px 5px rgba(0, 0, 0, 0.2);
+  margin-left: -10px;
+  transition: 0.5s;
+}
+
+section#sec-3 .container .maincontainer .right h1,
+section#sec-3 .container .maincontainer .right p {
+  opacity: 0;
+  transition: 0.5s;
+  text-align: center;
+  color: #fff;
+  /* font-family: "Poppins"; */
+}
+
+section#sec-3 .container .maincontainer .right p {
+  margin: 50px 55px;
+  font-size: 1.5em;
+}
+
+section#sec-3 .container .maincontainer .right h1 {
+  margin-top: 20%;
+}
+
+section#sec-3 .container .active .right h1,
+section#sec-3 .container .active .right p {
+  opacity: 1;
+}
+
+section#sec-3 .container .active .right {
+  width: 800px;
+}
+
+section#sec-3 .container .active .left {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/*========================================*
+*   Fin de la troisiÃ¨me section et        *
+*   dÃ©but du footer                       *
+==========================================*/
+
+section#sec-4{
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+section#sec-4 h1{
+  font-size: 4em;
+  z-index: 3000;
+  margin-bottom: 30px;
+}
+
+section#sec-4 p{
+  /* font-family: 'Poppins'; */
+  font-weight: 500; 
+  font-size: 1.5em;
+  text-align: center;
+}
+
+section#sec-4 p a{
+  color: black;
+}
+
+.footer {
+  height: 5vh;
+  width: 100%;
+  background: #151415;
+  position: absolute;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.footer .socialcontainer {
+  visibility: hidden;
+}
+
+/*========================================*
+*   Fin du footer et                     *
+*   dÃ©but du responsive                  *
+==========================================*/
+
+@media (max-width: 1000px) {
+  body {
+    position: relative;
+  }
+
+  section#sec-1 .right {
+    visibility: hidden;
+    display: none;
+  }
+
+  section#sec-1 {
+    justify-content: center;
+  }
+
+  section#sec-2 svg {
+    display: none;
+  }
+
+  section#sec-1 .left {
+    display: flex;
+    align-items: center;
+  }
+
+  section#sec-1 .left .block {
+    top: 0;
+  }
+
+  .socialcontainer {
+    visibility: hidden;
+  }
+
+  section#sec-2 {
+    overflow: hidden;
+    height: 110vh;
+    width: 100%;
+    display: flex;
+  }
+
+  section#sec-2 .container {
+    width: 100%;
+  }
+
+  section#sec-2 .maincontainer .container .card:hover p {
+    margin: 200px 0px 0 0px;
+  }
+  
+  section#sec-2 .container .card:nth-child(1) {
+    margin: 10px 50px;
+  }
+
+  section#sec-2 .container .card:nth-child(3) {
+    margin: 10px 0;
+  }
+
+  section#sec-2 .container .card:nth-child(2) {
+    margin: 10px 0;
+  }
+
+  section#sec-3 {
+    position: relative;
+    height: 80vh;
+    background: transparent;
+  }
+
+  section#sec-3 .container .maincontainer .right h1 {
+    display: none;
+  }
+
+  section#sec-3 .container .maincontainer .right p {
+    color: black;
+  }
+
+  section#sec-3 .container .maincontainer .right {
+    background: transparent;
+    box-shadow: none;
+    width: 800px;
+  }
+
+  section#sec-3 .left img {
+    display: none;
+  }
+
+  section#sec-4 h1{
+    font-size: 3em;
+    z-index: 3000;  
+  }
+
+  section#sec-4 p {
+    margin: 0px 50px;
+  }
+
+  .footer {
+    position: relative;
+    bottom: -50vh;
+    height: 20vh;
+    flex-direction: column;
+  }
+
+  .footer .socialcontainer {
+    color: white;
+    position: relative;
+    visibility: visible;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  section#sec-2 .maincontainer .container {
+    left: 0;
+  }
+
+}
+
+@media (max-width: 800px){
+  section#sec-3{
+    height: 500px;
+  }
+
+  .swiper-container {
+    width: 100%;
+    height: 85%;
+    overflow: visible !important;
+  }
+
+  .swiper-pagination{
+    z-index: 500;
+    margin-top: 350px;
+  }
+
+  .swiper-pagination-bullet{
+    margin: 0 5px;
+  }
+}
+
+.swiper-container {
+  overflow: visible !important;
+}
+
+@media (max-width: 400px){
+  .swiper-pagination{
+    z-index: 500;
+    margin-top: 420px;
+  }
+}
