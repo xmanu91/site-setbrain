@@ -217,6 +217,7 @@ section#sec-2 {
   height: 100vh;
   background: #fff;
   z-index: 20;
+  margin-bottom: 80px;
 }
 
 section#sec-2 .container {

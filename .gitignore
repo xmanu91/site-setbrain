@@ -2,3 +2,5 @@ node_modules
 .parcel-cache
 public/.parcel-cache
 public/cache
+dist
+public/dist
