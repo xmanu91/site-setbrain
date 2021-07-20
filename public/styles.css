@@ -297,79 +297,100 @@ section#sec-2 .maincontainer {
   justify-content: center;
   transition: 0.5s;
   opacity: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-section#sec-2 .maincontainer .container .card h1 {
-  color: #fff;
-  font-size: 2.5em;
-  margin: 10px 20px;
-  text-align: left;
-}
-
-section#sec-2 .maincontainer .container .card:nth-child(1) h1 {
-  /* font-family: "Poppins"; */
-  font-size: 2em;
-}
-
-section#sec-2 .maincontainer .container .card:nth-child(2) h1 {
-  /* font-family: "Poppins"; */
-  font-size: 2em;
-}
-
-section#sec-2 .maincontainer .container .card:nth-child(3) h1 {
-  /* font-family: "Poppins"; */
-  font-size: 2em;
-}
-
-section#sec-2 .maincontainer .container .card p {
-  color: #fff;
-  margin-top: 260px;
-  /*font-family: "Poppins";*/
+section#sec-2 .maincontainer .container{
   position: relative;
-  text-align: center;
-  transition: 0.5s;
+  background-image: url("wiclass.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  z-index: 2;
+  height: fit-content;
+  width: fit-content;
+  margin-top: 150px;
+ }
+
+section#sec-2 .maincontainer .container .background{
+  width: 818px;
+  height: 467px;
+  backdrop-filter: blur(33.6787px);
+  z-index: 5;
+  border-radius: 20px;
+  box-shadow: inset 58.0667px -58.0667px 58.0667px rgba(194, 194, 194, 0.074), inset -58.0667px 58.0667px 58.0667px rgba(255, 255, 255, 0.074);
 }
 
-section#sec-2 .maincontainer .container .card a {
-  display: inline-block;
+section#sec-2 .maincontainer .container h1{
+  position: absolute;
+  z-index: 10;
+  top: 25%;
+  width: 392px;
+  height: 120px;
+
+  font-family: League Spartan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 120px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  /* Text/Text */
+
+  color: #0E0E2C;
+}
+section#sec-2 .maincontainer .container p{
+  position: absolute;
+  z-index: 10;
+  top: 45%;
+  width: 434px;
+  height: 112px;
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #000000;
+
+}
+
+section#sec-2 .maincontainer .container a{
+  position: absolute;
+  z-index: 10;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
   padding: 10px 20px;
-  background: #000;
-  color: #fff;
-  border-radius: 40px;
+  border-radius: 50px;
+  background: #000000;
+  color: #ffffff;
   text-decoration: none;
-  margin-top: 20px;
-  /* font-family: "Poppins", sans-serif; */
-  transition: 0.5s;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  top: 85%;
   opacity: 0;
-}
-
-section#sec-2 .maincontainer .container .card .content {
-  bottom: 10px;
-  padding: 20px;
-  text-align: center;
   transition: 0.5s;
 }
 
-section#sec-2 .maincontainer .container .card:hover .content a {
-  margin-top: 10px;
+section#sec-2 .maincontainer .container:hover a{
+  top: 80%;
   opacity: 1;
 }
-
-section#sec-2 .maincontainer .container .card:hover p {
-  margin: 210px 0px 0 0px;
-}
-
-section#sec-2 .maincontainer .bar {
-  width: 30%;
-  height: 2px;
-  background: #cfcfcf;
-  position: relative;
-  left: 35%;
-  transition: 0.5s;
-  z-index: 40;
-}
-
 /*========================================*
 *   Fin de la seconde section et          *
 *   dÃ©but de la troisiÃ¨me                 *
@@ -543,6 +564,10 @@ section#sec-4 p a{
     top: 0;
   }
 
+  section#sec-1 .left .block h1{
+    font-size: 34px;
+  }
+
   .socialcontainer {
     visibility: hidden;
   }
@@ -554,26 +579,22 @@ section#sec-4 p a{
     display: flex;
   }
 
-  section#sec-2 .container {
-    width: 100%;
+  section#sec-2 .maincontainer .container{
+    width: 320px;    
+    border-radius: 20px;
   }
 
-  section#sec-2 .maincontainer .container .card:hover p {
-    margin: 200px 0px 0 0px;
+  section#sec-2 .maincontainer .container h1{
+    font-size: 62px;
+    justify-content: center;
+  }
+
+  section#sec-2 .maincontainer .container p{
+    width: 314px;
+    line-height: 21px;
+    font-size: 18px;
   }
   
-  section#sec-2 .container .card:nth-child(1) {
-    margin: 10px 50px;
-  }
-
-  section#sec-2 .container .card:nth-child(3) {
-    margin: 10px 0;
-  }
-
-  section#sec-2 .container .card:nth-child(2) {
-    margin: 10px 0;
-  }
-
   section#sec-3 {
     position: relative;
     height: 80vh;
@@ -609,7 +630,6 @@ section#sec-4 p a{
 
   .footer {
     position: relative;
-    bottom: -50vh;
     height: 20vh;
     flex-direction: column;
   }
@@ -625,38 +645,11 @@ section#sec-4 p a{
   }
 }
 
-@media (min-width: 1200px) {
-  section#sec-2 .maincontainer .container {
-    left: 0;
-  }
-
-}
-
 @media (max-width: 800px){
   section#sec-3{
     height: 500px;
   }
-
-  .swiper-container {
-    width: 100%;
-    height: 85%;
-    overflow: visible !important;
-  }
-
-  .swiper-pagination{
-    z-index: 500;
-    margin-top: 350px;
-  }
-
-  .swiper-pagination-bullet{
-    margin: 0 5px;
-  }
 }
-
-.swiper-container {
-  overflow: visible !important;
-}
-
 
 @media (max-width: 400px){
   .swiper-pagination{
