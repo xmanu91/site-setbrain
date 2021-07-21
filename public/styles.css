@@ -231,41 +231,6 @@ section#sec-2 .container {
   left: 0;
 }
 
-section#sec-2 .container .card {
-  width: 290px;
-  height: 450px;
-  margin: 60px;
-  border-radius: 20px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  transition: 0.5s;
-  overflow: hidden;
-}
-
-section#sec-2 .container .card:hover {
-  transform: scale(1.1);
-}
-
-section#sec-2 .container .card:nth-child(1) {
-  background: linear-gradient(-135deg, #d41e31, #491f8f);
-}
-
-section#sec-2 .container .card:nth-child(2) {
-  background: linear-gradient(
-    45deg,
-    rgba(0, 128, 126, 1),
-    rgba(91, 247, 31, 1)
-  );
-}
-
-section#sec-2 .container .card:nth-child(3) {
-  background: linear-gradient(
-    45deg,
-    rgba(0, 6, 128, 1) 10%,
-    rgba(31, 233, 247, 1) 100%
-  );
-  margin-right: 0%;
-}
-
 section#sec-2 svg {
   position: absolute;
   bottom: 83%;
@@ -312,6 +277,8 @@ section#sec-2 .maincontainer .container{
   height: fit-content;
   width: fit-content;
   margin-top: 150px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 39px rgba(0, 0, 0, 0.25);
  }
 
 section#sec-2 .maincontainer .container .background{
@@ -320,7 +287,7 @@ section#sec-2 .maincontainer .container .background{
   backdrop-filter: blur(33.6787px);
   z-index: 5;
   border-radius: 20px;
-  box-shadow: inset 58.0667px -58.0667px 58.0667px rgba(194, 194, 194, 0.074), inset -58.0667px 58.0667px 58.0667px rgba(255, 255, 255, 0.074);
+ 
 }
 
 section#sec-2 .maincontainer .container h1{
@@ -330,7 +297,7 @@ section#sec-2 .maincontainer .container h1{
   width: 392px;
   height: 120px;
 
-  font-family: League Spartan;
+  font-family: "League Spartan";
   font-style: normal;
   font-weight: bold;
   font-size: 96px;
@@ -344,11 +311,12 @@ section#sec-2 .maincontainer .container h1{
   /* Text/Text */
 
   color: #0E0E2C;
+  transition: 0.5s;
 }
 section#sec-2 .maincontainer .container p{
   position: absolute;
   z-index: 10;
-  top: 45%;
+  top: 50%;
   width: 434px;
   height: 112px;
 
@@ -363,7 +331,7 @@ section#sec-2 .maincontainer .container p{
   letter-spacing: -0.02em;
 
   color: #000000;
-
+  transition: 0.5s;
 }
 
 section#sec-2 .maincontainer .container a{
@@ -392,6 +360,16 @@ section#sec-2 .maincontainer .container:hover a{
   top: 80%;
   opacity: 1;
 }
+
+
+section#sec-2 .maincontainer .container:hover h1{
+  top: 20%;
+}
+
+section#sec-2 .maincontainer .container:hover p{
+  top: 45%;
+}
+
 /*========================================*
 *   Fin de la seconde section et          *
 *   dÃ©but de la troisiÃ¨me                 *

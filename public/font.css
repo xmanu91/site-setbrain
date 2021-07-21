@@ -64,3 +64,10 @@
     url("//db.onlinewebfonts.com/t/09a42b8a1fd186999c64b368da157d22.svg#Europhonic")
       format("svg");
 }
+
+    @font-face {
+    font-family: 'League Spartan Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('League Spartan Bold'), url('LeagueSpartan-Bold.woff') format('woff');
+    }
